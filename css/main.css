@@ -141,6 +141,18 @@ html, body{
 	
 }
 
+.wire {
+	flex: 1 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center;;
+}
+
+.wire img {
+	max-height: 100%;
+}
+
 .wm {
 	display: flex;
 	flex-flow: row wrap;
