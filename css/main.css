@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto+Mono');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /*this only affects padding and border; meaning when adding padding it will add inside of the box and not increase the width; BUT it will increase the width when using margin*/
+}
+
+html, body{
+	height: 100%;
+}
+
+.essay { 
+	height: 100%;
+    background: #F6F7FB;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.text {
+	margin: auto auto auto 10%;
+	flex: 1 40%;
+	height: 60%;
+	overflow: scroll;
+}
+
+.text h1 {
+	font-family: 'Roboto Mono', monospace;
+	color: #482FDF;
+	font-size: 30px;
+	padding-top: 15px;
+}
+
+.text p{
+	font-family: 'Lato', sans-serif;
+	color: #656D79;
+	font-size: 15px;
+	padding-top: 10px;
+	line-height: 23px;
+}
+
+.footnum{
+	color: #482FDF;
+	font-size: 10px;
+	vertical-align: super;
+}
+
+.links {
+	flex: 1 40%;
+	margin: auto auto auto 10%;
+}
+
+.links a{
+	font-family: 'Roboto Mono', monospace;
+	color: #EF3C61;
+	font-size: 30px;
+}
+
+.moodboard { 
+	display: flex;
+	flex-flow: row wrap;
+	flex: 1 100%;
+    background: #F6F7FB;}
+
+
+.moodboard h1{
+	font-family: 'Roboto Mono', monospace;
+	color: #482FDF;
+	font-size: 30px;
+	padding-top: 15px;
+}
+
+.image {
+	margin: 2% auto auto 10%;
+}
+
+.colors {
+	margin-top: 2%;
+}
+
+.colors h1 {
+	margin-left: 10%
+}
+
+.colors img {
+	max-width: 100%;
+}
+
+.type {
+	width: 40%;
+	margin: 2% auto 5% 10%;
+}
+
+.roboto {
+	font-family: 'Roboto Mono', monospace;
+	color: #482FDF;
+	padding-top: 10px;
+}
+
+.lato {
+	font-family: 'Lato', sans-serif;
+	color: #482FDF;
+	padding-top: 10px;
+}
+
+.insp {
+	background:#F6F7FB;
+	display: flex;
+	flex-flow: row wrap;
+	flex: 1 100%;
+	padding: 10px;
+	justify-content: space-around;
+}
+
+.item {
+	flex: 1 40%;
+	height: 300px;
+	margin-top: 50px;
+	margin-bottom: 70px;
+	padding: 15px;
+}
+
+.item img {
+	max-width: 100%;
+}
+
+.item h1{
+	font-family: 'Roboto Mono', monospace;
+	color: #482FDF;
+	font-size: 30px;
+	padding-top: 15px;
+}
+.item p{
+	
+	font-family: 'Roboto Mono', monospace;
+	color: #482FDF;
+	padding-bottom: 20px;
+	
+}
+
+.wm {
+	display: flex;
+	flex-flow: row wrap;
+	flex: 1 100%;
+	padding: 10px;
+	justify-content: center;
+}
+
+.itemwm {
+	flex: 1 20%;
+	height: 450px;
+	margin-top: 50px;
+	margin-bottom: 70px;
+	padding: 15px;
+}
+
+.itemwm img {
+	max-height: 100%;
+}
